@@ -78,7 +78,7 @@ const manyRecipes = [
 ];
 
 function insertManyRecipes() {
-  return Recipe.insertMany(manyRecipes).then((dbResponse) => {});
+  return Recipe.insertMany(manyRecipes);
 }
 
 // ITERATION FOUR
